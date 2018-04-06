@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 
-// Mongo URI
+// Mongo URI //using MLabs
 const mongoURI = 'mongodb://goofy:acube1997@ds127589.mlab.com:27589/image';
 
 // Create mongo connection
